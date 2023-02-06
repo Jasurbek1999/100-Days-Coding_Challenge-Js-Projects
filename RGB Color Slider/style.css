@@ -1,0 +1,44 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: #fff;
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: #142b37;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="range"] {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #0075ff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
