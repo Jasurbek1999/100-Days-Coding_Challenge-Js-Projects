@@ -63,6 +63,6 @@ body {
 }
 
 .success {
-    border: solid 1px green;
+    border: solid 1px #45B8AC;
     color: #111;
 }
