@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Responsive Image Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="./img/pexels-chinta-pavan-kumar-4423905.jpg" alt="img1" id="content1" class="active">
+            <img src="./img/pexels-isaac-garcia-9250046.jpg" alt="img2" id="content2">
+            <img src="./img/pexels-pixabay-414061.jpg" alt="img3" id="content3">
+            <img src="./img/pexels-rahul-utekar-2432269.jpg" alt="img4" id="content4">
+        </div>
+        <div class="dot-container">
+            <button onclick="dot(1)"></button>
+            <button onclick="dot(2)"></button>
+            <button onclick="dot(3)"></button>
+            <button onclick="dot(4)"></button>
+        </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
