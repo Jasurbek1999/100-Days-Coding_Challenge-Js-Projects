@@ -13,7 +13,7 @@ function next() {
     indicator( i+ 1);
 };
 
-function prev(){
+function previus(){
     document.getElementById('content' + (i+1)).
     classList.remove('active');
     i = ( j + i - 1 ) % j;
