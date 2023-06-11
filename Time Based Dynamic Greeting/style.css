@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ae9cff;
+}
+
+.container {
+  font-size: 1.3rem;
+  width: 25rem;
+  background: linear-gradient(-240deg, #8468ff 70%, #785bf7 70%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 4.5em 1.3em;
+  border-radius: 0.4em;
+  box-shadow: 0 1.3em 1.8em rgba(94, 72, 181, 0.25);
+}
+
+.container h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+}
