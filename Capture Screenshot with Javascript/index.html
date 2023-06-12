@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HTML2CANVAS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Take Screenshot With JavaScript</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div id="container">
+        <h1>Demo Content</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+          ipsam voluptates quae quam expedita laboriosam minus dignissimos
+          dolorem id consequatur iure voluptas aliquid nisi, hic perferendis
+          qui, cupiditate magni deleniti.
+        </p>
+        <img
+          src="./pexels-jeandaniel-francoeur-3037727.jpg"
+          alt="screenshot image"
+        />
+      </div>
+      <div id="preview-container"></div>
+    </div>
+    <div class="buttons">
+      <button id="capture-button">Capture Screenshot</button>
+      <a id="download-button" class="hide">Download Screenshot</a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
